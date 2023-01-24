@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Salary {
-    private WebDriver webDriver;
+    private final WebDriver webDriver;
 
     public Salary(WebDriver webDriver) {
         this.webDriver = webDriver;

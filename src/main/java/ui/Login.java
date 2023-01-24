@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class Login {
-    private WebDriver webDriver;
+    private final WebDriver webDriver;
     public Login (WebDriver webDriver) {
         this.webDriver = webDriver;
     }
