@@ -24,7 +24,7 @@ public class Test {
                 .clickTag("QA Automation")
                 .getSalaryText();
 
-        Assert.assertEquals(salary, "$3000 - $5000", "nopePidar");
+        Assert.assertEquals(salary, "$3000 - $5000", "nope");
 
         driver.close();
     }
